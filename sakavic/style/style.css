@@ -1,0 +1,203 @@
+body{   
+    background-size: 100%;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;   
+    background-color: #353538; 
+    font-family: 'Open Sans',sans-serif ;
+}
+
+.header{
+    background-color: #353538;
+    padding: 20px 0;
+}
+
+.container_menu{
+    background-color: #353538;   
+    width: 90%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.sakavik{
+    border-radius: 50%;
+}
+
+.nav a{
+    cursor: pointer;
+    transition: all .5s;
+    letter-spacing: 3px;
+}
+
+.nav a::after{
+    transition: all .5s;
+}
+
+.nav a::before{
+    transition: all .5s;
+}
+
+.nav a:hover {
+    color: rgba(74, 92, 196, 0.945);
+}
+
+/* секция 1*/
+
+.slaider{
+    height: 550px;
+}
+
+/* секция 2*/
+.section_card{
+    margin: 20px 0 50px 0;
+   
+}  
+
+.container__card{
+    line-height: 150px;
+}
+
+.nash_sport{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'EB Garamond',sans-serif ;
+}
+
+
+
+.section__2__cart{
+    background: #E0EAF5;
+}
+
+.section__2__cart__img{
+    height: 50%;
+    padding-top: 46px;
+    
+}
+
+ul{
+    color: black;
+    line-height: 25px;
+    letter-spacing: 1px;
+    s
+    font-size: 1.2em;
+}
+
+.text{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 80px;
+    font-family: 'EB Garamond',sans-serif ;
+    font-size: 2em;
+}
+
+.text:hover {
+    color: rgba(74, 92, 196, 0.945);
+    letter-spacing: 2px;
+}
+
+
+/* секция 3*/
+
+.container_fon{
+    background-color: #353538;
+    background: url(/images/fon2.jpg);
+    width: 100%;
+    height: 100vh;    
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+ 
+
+.container{
+    padding: 0;  
+}
+
+.button{   
+    text-decoration:none; 
+    text-align:center; 
+    padding:17px 23px; 
+    border:solid 4px #3185d4; 
+    -webkit-border-radius:34px;
+    -moz-border-radius:34px; 
+    border-radius: 34px; 
+    font:29px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#3185d4; 
+    background:#0e1626; 
+     
+     
+    text-shadow: 0px -1px 0px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=-1);  -webkit-transition: height 0.05s ease-in;
+    -moz-transition:  height 0.05s ease-in;
+    -o-transition:  height 0.05s ease-in;
+    transition:  height 0.05s ease-in;
+}
+    
+.button:hover{
+    padding:17px 23px; 
+    border:none; 
+    -webkit-border-radius:34px;
+    -moz-border-radius:34px; 
+    border-radius: 34px; 
+    font:30px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background:#3185d4; 
+     
+    opacity:0.95; 
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95); 
+    filter: alpha(opacity=95); 
+    text-shadow: 0px -1px 0px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=-1);
+}
+
+/* секция 4*/
+
+.section__bottom{
+    margin-top: 40px 0;
+}
+
+caption{
+    caption-side: top;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;    
+}
+
+.table__section{
+    background: #E0EAF5;
+    color: black;
+}
+
+.badges{
+    font-size: 2em;
+}
+
+/* footer*/
+
+footer{
+    padding: 30px 0;
+    color: gray;
+}
+
+hr{
+    border:gray solid 1px;
+    opacity: 0.1;
+}
+
+.footer__left{
+    left: 0;
+}
+
+.footer__right{
+    right: 0;
+}
+
+.tel{
+    color: gray;
+}
